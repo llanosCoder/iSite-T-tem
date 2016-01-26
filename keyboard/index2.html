@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+ <title>i-site Tótem</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <meta http-equiv="Content-Language" content="es" />
+ <link href="css/styles.css" rel="stylesheet">
+ <link rel="stylesheet" href="css/bootstrap.css">
+ <link rel="stylesheet" href="css/magic.css">
+ <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+
+<link href="demo/demo.css" rel="stylesheet">
+
+  <!-- jQuery & jQuery UI + theme (required) -->
+  <link href="http://code.jquery.com/ui/1.9.0/themes/ui-darkness/jquery-ui.css" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.js"></script>
+  <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.min.js"></script>
+
+  <!-- keyboard widget css & script (required) -->
+  <link href="css/keyboard.css" rel="stylesheet">
+  <script src="js/jquery.keyboard.js"></script>
+
+  <!-- keyboard extensions (optional) -->
+  <script src="js/jquery.mousewheel.js"></script>
+
+  <script>
+    $(function(){
+      $('#keyboard').keyboard();
+    });
+  </script>
+
+</head>
+<body style="max-width:1080px; max-height: 1920px;" onClick="parar();" onKeyPressed="parar();">
+  <div id="sombra4"></div>
+  <div id="logo3">    
+  </div>
+  <div id="logo4">
+  </div>
+  <!--<div id="search">
+    <input type="text" class="form-control" id="txtsearch" placeholder="Búsqueda personalizada"/>
+  </div>-->
+  <div id="mapa"></div>
+  <div id="botones">
+  </div>
+  <div id="sombra3"></div>
+  <div id="infolocal"></div>
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close">
+          <img src="src/cruz.png" data-dismiss="modal"/>
+        </div>
+        <div class="modal-header" id="myModalHeader">
+          <img class="img-header" src="src/mall_logo.png" />
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <div class="container col-md-7">
+            <div class="carousel slide" id="myCarousel" data-interval="false">
+            </div>
+          </div>
+  </div>
+</div>
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+  <div id="wrap"> <!-- wrapper only needed to center the input -->
+
+    <!-- keyboard input -->
+    <input id="keyboard" type="text">
+
+  </div> 
+</body>
+<script src="js/indexinput.js"></script>
+<script src="js/jquery-1.10.2.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript"
+src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCk4p7Tue7OeG8jZJh8uypZ7tgSsTnMkIk&sensor=TRUE">
+</script>
+<script src="js/mapa.js"></script>
+<script src="js/application.js"></script>
+<script src="js/welcome.js"></script>
+</html>
